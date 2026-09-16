@@ -1,0 +1,148 @@
+html {
+  font-size: clamp(1rem, calc(0.5rem + 0.8vw), 4rem);
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+
+header {
+  text-align: center;
+  padding: 5vw 0 0 0;
+}
+header nav ul li {
+  margin: 20px 0 0 0;
+  color: #0f172a;
+}
+header nav ul li.font-yellow {
+  color: #fbbc05;
+}
+header nav ul li.button-yellow a {
+  background-color: #fbbc05;
+  color: #FFFFFF;
+  padding: 8px 16px 8px 16px;
+  border-radius: 5px;
+  display: inline-block;
+}
+section.banner {
+  background: url(../images/background-banner.png) no-repeat;
+  background-size: auto 100%;
+  padding: 3vw 5vw 3vw 5vw;
+  margin: 5vw 0vw 5vw 0vw;
+}
+section.banner div.image {
+  display: none;
+}
+section.banner h2 {
+  font-size: 2rem;
+  color: #252b42;
+}
+section.banner p {
+  color: #737373;
+  font-size: 0.7rem;
+  margin: 14px 0 0 0;
+}
+section.banner p a {
+  background: #252b42;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0px 10px 0px 10px;
+  gap: 8px;
+}
+section.banner p.buttons {
+  display: flex;
+  color: #FFFFFF;
+  gap: 20px;
+}
+section.banner p.buttons img {
+  height: 50%;
+}
+section.ready div.imagem {
+  display: none;
+}
+section.ready {
+  text-align: center;
+  padding: 3vw 5vw 3vw 5vw;
+}
+section.ready h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 10px 0 10px 0;
+  color: #252b42;
+}
+section.ready > p{
+  color: #737373;
+}
+section.ready div.lista ul li {
+  margin: 20px 0 20px 0;
+}
+section.ready div.lista ul li h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 10px 0 10px 0;
+  color: #252b42;
+}
+section.ready div.lista ul li p{
+  color: #737373;
+}
+section.download{
+  background: #fbbc05;
+  border-radius: 10px;
+  margin: 3vw 5vw 3vw 5vw;
+  color: #FFFFFF;
+  padding: 10px 10px 10px 10px;
+}
+@media only screen and (min-width: 600px) {
+  header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  header {
+    padding: 2vw 5vw 2vw 5vw;
+  }
+  section.banner {
+    display: flex;
+    align-items: center;
+    background-size: 100% auto;
+  }
+  section.banner div.image {
+    display: block;
+    text-align: right;
+  }
+  section.banner img {
+    width: 50%;
+  }
+  section.ready div.imagem {
+    display: block;
+  }
+  section.ready > p{
+    padding: 0 20% 0 20%;
+  }
+  section.ready > div{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 3vw 0 0 0;
+  }
+  section.ready div.lista ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 40vw;
+  }
+  section.ready div.lista ul li{
+    width: 40%;
+  }
+  section.download{
+    padding: 3vw 3vw 3vw 3vw;
+  }
+  section.download p{
+    width: 20%;
+  }
+}
