@@ -93,6 +93,36 @@ section.download{
   color: #FFFFFF;
   padding: 10px 10px 10px 10px;
 }
+section.download h2{
+  font-size: 1.5rem;
+  margin: 20px 0 20px 0;
+}
+section.download button{
+  background: #252b42;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+section.download p{
+  padding: 0 0 20px 0;
+}
+section.services{
+  margin: 10vw 5vw 3vw 5vw;
+}
+section.services h2{
+  font-size: 1.1rem;
+}
+section.services div.text{
+  margin: 0 0 20px 0;
+}
+section.services ul li{
+  background: #f6f6f6;
+  padding: 20px 20px 20px 20px;
+  margin: 10px 0 10px 0;
+}
+section.services ul li h3{
+  font-size: 1.07rem;
+  padding: 20px 0 10px 0;
+}
 @media only screen and (min-width: 600px) {
   header nav {
     display: flex;
@@ -141,8 +171,24 @@ section.download{
   }
   section.download{
     padding: 3vw 3vw 3vw 3vw;
+    background: url(../images/iphone-pet-ui.png) no-repeat, url(../images/iphone-pet-ui.png) no-repeat, #fbbc05;
+    background-size: auto 100%, auto 90%;
+    background-position: center 7vw, 80% -6vw;
   }
   section.download p{
-    width: 20%;
+    width: 25%;
+    margin: 0 0 5vw 0;
+  }
+  section.services{
+    display: flex;
+    gap: 10vw;
+    }
+  section.services div.text{
+    width: 50%;
+  }
+  section.services ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
   }
 }
